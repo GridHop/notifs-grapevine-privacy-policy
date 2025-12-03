@@ -1,1 +1,1 @@
-# notifs-grapevine-privacy-policy
+# notifs-grapevine
