@@ -1,1 +1,1 @@
-# notifs-grapevine
+# notifs-grapevine-info
