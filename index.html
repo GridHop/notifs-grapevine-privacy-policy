@@ -1,72 +1,82 @@
 PRIVACY POLICY
-
+ - 
 Information We Collect
 Notifs Grapevine collects and stores the following information:
-
+ - 
 Locally on Your Device:
-
+ - 
 Monitored social media profiles (Bluesky, Mastodon usernames and URLs)
 Local notification history
 App preferences and settings
+ - 
 On Firebase Cloud Services (Optional - Only When Cloud Notifications Enabled):
-
+ - 
 Firebase Cloud Messaging (FCM) device token for push notifications
 Monitored profile lists (usernames, hashtags, feed URLs)
 Social media authentication credentials:
 Bluesky: Handle and app-specific password
 Mastodon: Instance URL and access token
 Timestamp of last content check
+ - 
 How We Use Your Information
 Local Processing:
-
+ - 
 Manage and display monitored content
 Store notification preferences
 Maintain app settings
+ - 
 Cloud Processing (When Cloud Notifications Enabled):
-
+ - 
 Check monitored feeds every 5 minutes via Firebase Cloud Functions
 Send push notifications to your device when new content is detected
 Maintain monitoring state across app restarts
+ - 
 Data Storage and Security
 Local Storage:
-
+ - 
 All core app data is stored locally on your iOS device in a SQLite database
 Local data remains private and never leaves your device unless cloud notifications are enabled
+ - 
 Cloud Storage (Firebase):
-
+ - 
 When cloud notifications are enabled, your monitor configurations and credentials are stored in Google Firebase Firestore (US region)
 Credentials are stored securely and only accessible by Firebase Cloud Functions for feed checking
 Data is automatically deleted from Firebase when you disable cloud notifications
 All data transmission uses HTTPS encryption
+ - 
 Your Credentials:
-
+ - 
 Social media credentials (access tokens, passwords) are stored only for the purpose of checking private/authenticated feeds
 We never share or transmit your credentials to any third party
 Credentials are only used by Firebase Cloud Functions running on Google's secure infrastructure
+ - 
 You can delete credentials at any time by disabling cloud notifications
 Data Deletion
 You can delete your data at any time:
-
+ - 
 Local Data: Use the app settings to clear notifications and monitors, or uninstall the app
 Cloud Data: Disable cloud notifications in the Monitors screen to immediately delete all data from Firebase
 Complete Removal: Uninstalling the app removes all local data; disabling cloud notifications removes all cloud data
+ - 
 Third-Party Services
 We use the following third-party services:
-
+ - 
 Firebase (Google):
-
+ - 
 Firebase Cloud Messaging for push notifications
 Firebase Firestore for storing monitor configurations
 Firebase Cloud Functions for server-side feed checking
 Firebase Privacy Policy
+ - 
 Content Sources:
-
+ - 
 We fetch public content from Bluesky (bsky.app) and Mastodon instances
 For authenticated content, we use your provided credentials to access feeds on your behalf
 We do not share your data with these platforms beyond normal API usage
+ - 
 Data Sharing
 We do NOT:
-
+ - 
 Sell your data to third parties
 Share your credentials with anyone
 Use your data for advertising or analytics
